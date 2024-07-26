@@ -1,21 +1,89 @@
-.body {
-    font-family: "Roboto";
-    font-weight: 100;
-    font-style: normal;
-    background-color: black;
-  }
-
-article .card {
-  display: flex
-  flex-direction: column;
-  width: 400px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color:#0E0E0E;
+  margin: auto;
+  padding: auto;
+     
+}
+
+article.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 420px;
+  border-top: 60px #000 solid;
+  border-right: 160px #000 solid;
+  border-bottom: 90px #000 solid;
+  border-left: 160px #000 solid;
+  background-color: white;
+  padding: auto;
+  
+}
+article.card header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
 .logo {
-  display: flex
-  flex-direction:row;
- }
+    display: flex;
+    flex-direction: row;
+}
+ 
 .view_more {
-  display:flex
-  justify-content:flex-end
+  font-weight: bold;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.save{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  padding:5px 10px 10px 10px
+}
+.iconos {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  font-size: 25px;
+  padding:5px 20px 10px 20px
+}
+
+.imagenes img{
+  display: flex;
+  width: 420px;
+  height: 350px;
+  
+}
+.fa-brands  {
+  font-size: 25px;
+  padding: 20px 0px 10px 10px;
+}
+h1 {
+  font-size: 15px;
+  padding: 15px 10px 0px 10px;
+}
+h2{
+  font-size: 15px;
+  padding: 0px 10px 10px 10px;
+}
+.view_more {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+}
+.contenido{
+  font-size: 13px;
+  margin: auto;
+  padding: 10px 20px 30px 20px;
+  font-weight: 400;
 }
